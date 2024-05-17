@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body style="font-family: Poppins;">
+    <main class="h-screen w-full bg-pink-100 font-poppins box-border">
+
+        <!-- navbar -->
+        <nav class="flex items-center justify-between bg-[#d6ccc2] shadow-2xl h-16">
+            <div class="w-[20%]">
+                <p class="text-3xl font-bold font-poppins ml-3 cursor-pointer hover:scale-120 transition-all duration-200 ease-in-out">
+                    <span class="hover:drop-shadow-xl">
+                        <a href="./home.html">ReviewScope</a>
+                    </span>
+                </p>
+            </div>
+            <ul class="flex-1 flex justify-around list-none font-semibold text-lg cursor-pointer">
+                <li class="hover:scale-105 transition-all duration-200 ease-in-out hover:drop-shadow-md"><a href="/home.html">Home</a></li>
+                <li class="hover:scale-105 transition-all duration-200 ease-in-out hover:drop-shadow-md">Pricing</li>
+                <li class="hover:scale-105 transition-all duration-200 ease-in-out hover:drop-shadow-md">Product Review</li>
+                <li class="hover:scale-105 transition-all duration-200 ease-in-out hover:drop-shadow-md">Customer Review</li>
+                <li class="hover:scale-105 transition-all duration-200 ease-in-out hover:drop-shadow-md">Dataset Analysis</li>
+                <li class="hover:scale-105 transition-all duration-200 ease-in-out hover:drop-shadow-md">About</li>
+                <li class="hover:scale-105 transition-all duration-200 ease-in-out hover:drop-shadow-md">Contact</li>
+            </ul>
+            <button class="bg-[#023047] h-8 mr-5 px-4 py-1 rounded-2xl justify-center items-center hover:bg-white hover:border hover:border-black">
+                <p class="text-white my-auto font-semibold hover:scale-105 transition-all duration-200 ease-in-out hover:shadow-xl hover:text-black">Logout</p>
+            </button>
+        </nav>
+
+        <!-- main div -->
+        <div class="flex flex-1 bg-[#f8f9fa] h-[60vh] justify-between items-center">
+            <div class="w-[50%] text-xl gap-y-4 ml-4">
+                <div class="text-2xl font-bold mb-4">
+                    Welcome to ReviewScope,
+                </div>
+                <div class="text-justify text-lg">
+                    Your trusted source for in-depth and unbiased product reviews. Our mission is to help you make informed purchasing decisions by providing comprehensive, easy-to-understand evaluations of the latest products in technology, home appliances, fashion, and more. At ReviewScope, we take pride in our rigorous review process. Our team of experts meticulously tests each product, examining every aspect from functionality and design to durability and value. We aim to offer a balanced perspective, highlighting both the strengths and areas for improvement, so you can choose the best product for your needs.
+                </div>
+            </div>
+            <div class="h-[30rem] w-[30rem] flex justify-center items-center mr-12">
+                <img src="./assest/Homeimg.jpeg" alt="Search Img" class="shadow-xl hover:scale-105 transition-all duration-400 ease-in-out">
+            </div>
+        </div>
+
+        <footer class="h-auto bg-[#171942] text-white flex p-8">
+            <div class="w-1/4">
+                <h2 class="text-xl font-bold">ReviewScope</h2>
+                <div class="mt-4">
+                    <p class="mb-2"><a href="/home.html">
+
+                        Home
+                    </a>
+                </p>
+                    <p class="mb-2">Pricing</p>
+                    <p class="mb-2">Privacy Policy</p>
+                </div>
+            </div>
+            <div class="w-1/4">
+                <h2 class="text-xl font-bold">Get Help</h2>
+                <div class="mt-4">
+                    <p class="mb-2">FAQ</p>
+                    <p class="mb-2">Contact Us</p>
+                    <p class="mb-2">Payment Options</p>
+                </div>
+            </div>
+            <div class="w-1/4">
+                <h2 class="text-xl font-bold">Creators</h2>
+                <div class="mt-4">
+                    <p class="mb-2">Sahil Shukla</p>
+                    <p class="mb-2">Sukhman Hundle</p>
+                    <p class="mb-2">Baburao Konuri</p>
+                    <p class="mb-2">Imran Ansari</p>
+                </div>
+            </div>
+            <div class="w-1/4">
+                <h2 class="text-xl font-bold">Follow Us</h2>
+                <div class="mt-4 flex space-x-4">
+                    <div class="bg-[#d6ccc2] p-2 rounded-full">
+                        <a href="#"><img src="./assest/github.svg" alt="GitHub" class="w-8 h-8 hover:scale-110 transition-all duration-200 ease-in-out"></a>
+                    </div>
+                    <div class="bg-[#d6ccc2] p-2 rounded-full">
+                        <a href="#"><img src="./assest/instagram.svg" alt="Instagram" class="w-8 h-8 hover:scale-110 transition-all duration-200 ease-in-out"></a>
+                    </div>
+                    <div class="bg-[#d6ccc2] p-2 rounded-full">
+                        <a href="#"><img src="./assest/linkedin.svg" alt="LinkedIn" class="w-8 h-8 hover:scale-110 transition-all duration-200 ease-in-out"></a>
+                    </div>
+                    <div class="bg-[#d6ccc2] p-2 rounded-full">
+                        <a href="#"><img src="./assest/twitter.svg" alt="Twitter" class="w-8 h-8 hover:scale-110 transition-all duration-200 ease-in-out"></a>
+                    </div>
+                </div>
+                
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
